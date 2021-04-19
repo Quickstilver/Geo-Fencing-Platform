@@ -1,0 +1,21 @@
+Copyright of  Stefano Balla, Federica La Piana, Gianluca Spiller.
+
+
+The project is composed of 3 main components:
+1. The android app (folder: LocationServiceUpdate2)
+2. The server ( folder: Server)
+3. The POSTGRES database ( postgres.tar)
+
+How to run:
+
+1) Insert your IP ADDRESS into the code of the app LocationServiceUpdate2
+   line to change:  LocationServiceUpdate2/app/src/main/java/com/createapp/locationserviceupdate/mainActivity.java/  LINE 283
+
+2)Import the file postgres.tar on PgAdmin
+
+3)Insert your username and your password of the database postgreSQL in the file queries.js
+  line to change: /Server/queries.js
+
+4) Launch a terminal, go to the folder progettoFinale and insert the instruction: "node App.js" to run the Server
+
+5) Insert the url "localhost:3000/prova" in the Browser to use the server.
