@@ -1,24 +1,18 @@
-# Geo-Fencing-Platform
-A system that receives geographic locations from an Android App and replys with turistic information on the current position.
+Istruzioni per  l'avvio della piattaforma:
 
-Copyright of  Stefano Balla, Federica La Piana, Gianluca Spiller.
+1) Inserire il proprio indirizzo IP nell'App LocationServiceUpdate2
 
+LocationServiceUpdate2/app/src/main/java/com/createapp/locationserviceupdate/mainActivity.java/riga 283
 
-The project is composed of 3 main components:
-1. The android app (folder: LocationServiceUpdate2)
-2. The server ( folder: Server)
-3. The POSTGRES database ( postgres.tar)
+2)Importare il file postgres.tar su PgAdmin
 
-How to run:
+3)Inserire nome del database e password di postgreSQL nel file queries.js 
 
-1) Insert your IP ADDRESS into the code of the app LocationServiceUpdate2
-   line to change:  LocationServiceUpdate2/app/src/main/java/com/createapp/locationserviceupdate/mainActivity.java/  LINE 283
+progettofinale/Server/queries.js
 
-2)Import the file postgres.tar on PgAdmin
+4) Aprire un terminale, posizionarsi nella cartella progettoFinale e inserire l'istruzione node App.js per avviare il Server
 
-3)Insert your username and your password of the database postgreSQL in the file queries.js
-  line to change: /Server/queries.js
+5) Inserire nella barra dell'url del Browser la stringa localhost:3000/prova
 
-4) Launch a terminal, go to the folder progettoFinale and insert the instruction: "node App.js" to run the Server
-
-5) Insert the url "localhost:3000/prova" in the Browser to use the server.
+------QGIS VERSION-----
+1) Importare dalla cartella ProgettoQGis il file in formato dxf su qgis. (in alternativa caricare i layer dalla cartella layer.zip)
