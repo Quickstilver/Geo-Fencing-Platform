@@ -1,3 +1,29 @@
+Instructions for starting up the platform:
+
+    Enter your IP address in the LocationServiceUpdate2 App
+
+LocationServiceUpdate2/app/src/main/java/com/createapp/locationserviceupdate/mainActivity.java/gauge 283
+
+2)Import the file postgres.tar on PgAdmin
+
+3)Insert database name and password of postgreSQL in the file queries.js
+
+final project/Server/queries.js
+
+    Open a terminal, go to the folder progettoFinale and enter the instruction node App.js to start the Server
+
+    Insert in the browser url bar the string localhost:3000/test
+
+------QGIS VERSION-----
+
+    Import from the ProjectQGis folder the file in dxf format on qgis. (alternatively upload the layers from the folder layer.zip)
+    
+ ------------------------------------------------------------------------------------------------------------------
+ 
+ #ITALIAN VERSION
+
+
+
 Istruzioni per  l'avvio della piattaforma:
 
 1) Inserire il proprio indirizzo IP nell'App LocationServiceUpdate2
